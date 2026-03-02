@@ -1,6 +1,8 @@
 import React from 'react'
 
 function Card(props) {
+    console.log(props);
+    
     console.log(props.user);
     console.log(props.imge);
     
