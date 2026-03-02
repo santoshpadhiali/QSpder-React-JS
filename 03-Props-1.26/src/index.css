@@ -11,3 +11,44 @@ body {
   font-family: Arial, sans-serif;
   color: white;
 }
+.card{
+  width: 300px;
+  border: 2px solid blanchedalmond;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #333;
+  border-radius: 10px;
+}
+.parant{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+.card p{
+  margin: 10px;
+  text-align: justify;
+  color: antiquewhite;
+}
+.card img{
+  height: 150px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.card button{
+  margin: 10px;
+  color: #121212;
+  background-color: white;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 700;
+  width: 100px;
+  cursor: pointer;
+}
+.App-parant{
+  display: flex;
+  flex-wrap: wrap;
+}
