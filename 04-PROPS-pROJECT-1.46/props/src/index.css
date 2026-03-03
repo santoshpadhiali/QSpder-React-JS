@@ -1,4 +1,5 @@
 /* ===== Reset ===== */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,4 +11,96 @@ body {
   background-color: #121212;
   font-family: Arial, sans-serif;
   color: white;
+}
+.parant{
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  color: black;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  height: 320px;
+  width: 300px;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 30px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  /* padding: 30px; */
+  /* margin: 30px; */
+
+}
+.top img{
+   width: 75px;
+    height: 75px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Hides parts of the image outside the circle */
+    /* Optional: Add a border for visibility */
+    /* border: 1px solid gray; */
+
+}
+.top button{
+  text-align: center;
+  background-color: rgba(231, 236, 239, 0.696);
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: #111;
+  font-weight: 700;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+.mid span{
+  font-size: xx-small;
+  color: gray;
+  font-weight: 300;
+  margin: 10px;
+}
+.mid h5{
+  font-size: medium;
+  font-weight: 200;
+  margin-top: 20px;
+
+}
+.mid button{
+  height: 35px;
+  text-align: center;
+  width: 80px;
+  margin: 10px;
+  /* font-size: large; */
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.bottom button{
+  background-color: rgba(231, 236, 239, 0.696);
+  height: 40px;
+  width: 90px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  color: #111;
+  font-weight: 700;
+  margin-top: 10px;
 }
