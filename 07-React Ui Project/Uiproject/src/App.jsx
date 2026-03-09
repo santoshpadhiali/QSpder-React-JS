@@ -1,9 +1,12 @@
 import react from 'react'
-import Navbar from './Componet/Navbar';
+import Section1 from './Componet/Section1/Section1';
+import Section2 from './Componet/Section2/Section2';
+
 function App() {
   return (
     < >
-    <Navbar/>
+        <Section1></Section1>
+        <Section2/>
     </>
   )
 }
