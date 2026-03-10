@@ -2,8 +2,8 @@ import React from 'react'
 
 function Section2() {
   return (
-    <div className='h-screen w-full bg-blue-300'>
-      
+    <div className='h-screen w-full bg-blue-900'>
+      Section 2
     </div>
   )
 }
